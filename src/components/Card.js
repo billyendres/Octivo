@@ -1,46 +1,38 @@
 import React, { useState, useRef } from "react";
-import ReactDOM from "react-dom";
 import { useSpring, animated } from "react-spring";
-import ReactParticles from "react-particles-js";
-import particlesConfig from "./particles-config.js";
-import "./Card.scss";
+import "../styles/Card.scss";
 
 const CardItems = () => {
 	return (
-		<div className="main">
-			<Particles>
-				<Hero>
-					<div className="container">
-						<Info />
-						<div className="row">
-							{cards.map((card, i) => (
-								<div className="column">
-									<Card>
-										<div className="card-title">{card.title}</div>
-										<div className="card-body">{card.description}</div>
-										<div
-											style={{
-												width: "175px",
-												height: "175px",
-												borderRadius: "50%",
-												background: "black",
-												padding: "20px",
-												textAlign: "center",
-												marginLeft: "3rem"
-											}}
-										>
-											<img
-												src="https://octivo.io/wp-content/uploads/2018/10/2-apps.png"
-												style={{ height: "110px", height: "110px", paddingTop: "20px" }}
-											/>
-										</div>
-									</Card>
-								</div>
-							))}
-						</div>
+		<div>
+			<Hero>
+				<div className="container">
+					<Info />
+					<div className="row">
+						{cards.map((card, i) => (
+							<div className="column">
+								<Card>
+									<div className="card-title">{card.title}</div>
+									<div className="card-body">{card.description}</div>
+									<div
+										style={{
+											width: "100px",
+											height: "100px",
+											borderRadius: "50%",
+											background: "black"
+										}}
+									>
+										<img
+											src="https://octivo.io/wp-content/uploads/2018/10/2-apps.png"
+											style={{ height: "110px", height: "110px", paddingTop: "20px" }}
+										/>
+									</div>
+								</Card>
+							</div>
+						))}
 					</div>
-				</Hero>
-			</Particles>
+				</div>
+			</Hero>
 		</div>
 	);
 };
@@ -115,41 +107,30 @@ function Card({ children }) {
 	);
 }
 
-function Particles({ children }) {
-	return (
-		<div style={{ position: "relative" }}>
-			<ReactParticles
-				params={particlesConfig}
-				style={{
-					position: "absolute",
-					zIndex: 1,
-					left: 0,
-					right: 0,
-					bottom: 0,
-					top: 0
-				}}
-			/>
-			{children && <div style={{ position: "relative" }}>{children}</div>}
-		</div>
-	);
-}
-
 function Hero({ children }) {
 	return (
 		<div className="hero">
-			<div className="hero-body">{children}</div>
+			<div>{children}</div>
 		</div>
 	);
 }
 
 function Info() {
 	return (
-			<div className="info" style={{ fontSize: "3rem" }}>
-				GET IN TOUCH!
-				<br />
-				<img style={{width: '40px', height: '40px', marginRight: '10px', marginBottom: '10px'}} src="https://octivo.io/wp-content/uploads/2018/12/phone-icon.svg"/>
-				1300 166 010
-			</div>
+		<div className="info" style={{ fontSize: "3rem" }}>
+			GET IN TOUCH!
+			<br />
+			<img
+				style={{
+					width: "40px",
+					height: "40px",
+					marginRight: "10px",
+					marginBottom: "10px"
+				}}
+				src="https://octivo.io/wp-content/uploads/2018/12/phone-icon.svg"
+			/>
+			1300 166 010
+		</div>
 	);
 }
 

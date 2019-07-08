@@ -1,0 +1,88 @@
+.clients-bg {
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(180deg, #ff5e5e, #feb4b4 100%);
+}
+
+.clients {
+	width: 100%;
+	margin: 2em;
+	background: white;
+	opacity: 0.8;
+	text-align: center;
+	height: 25em;
+	border: 4px solid black;
+}
+
+@media only screen and (max-width: 1050px) {
+	.clients {
+		height: 17em;
+	}
+}
+
+@media only screen and (max-width: 850px) {
+	.clients {
+		height: 12em;
+	}
+}
+
+@media only screen and (max-width: 665px) {
+	.clients {
+		height: 8em;
+	}
+}
+
+.clients-header {
+	margin-top: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+	color: black;
+	font-family: DIN Condensed;
+	font-size: 3rem;
+}
+
+@media only screen and (max-width: 1050px) {
+	.clients-header {
+		font-size: 2em;
+	}
+}
+
+@media only screen and (max-width: 850px) {
+	.clients-header {
+		font-size: 1.5em;
+	}
+}
+
+@media only screen and (max-width: 665px) {
+	.clients-header {
+		font-size: 1em;
+	}
+}
+
+.clients-image {
+	width: 10em;
+}
+
+@media only screen and (max-width: 1050px) {
+	.clients-image {
+		width: 8em;
+	}
+}
+
+@media only screen and (max-width: 850px) {
+	.clients-image {
+		width: 6em;
+	}
+}
+
+@media only screen and (max-width: 665px) {
+	.clients-image {
+		width: 4em;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.clients-image {
+		width: 3em;
+	}
+}

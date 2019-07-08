@@ -3,8 +3,7 @@ import React, { useRef, useEffect } from "react";
 import { apply, Canvas, useRender, useThree } from "react-three-fiber";
 import { useSprings, a } from "@react-spring/three";
 import * as resources from "./resources/index";
-import Nav from "./nav/Nav";
-// Make extra stuff available as native-elements (<effectComposer />, etc.)
+import "../styles/HomePage.scss";
 apply(resources);
 
 const number = 30;
@@ -66,16 +65,15 @@ const Effect = () => {
 
 const HomePage = () => {
 	return (
-		<div class="main" style={{ color: "#172717" }}>
+		<div style={{ color: "#172717", height: "100vh" }}>
 			<Canvas style={{ background: "#A2CCB6" }} camera={{ position: [0, 0, 30] }}>
 				<ambientLight intensity={0.5} />
 				<spotLight intensity={0.5} position={[300, 300, 4000]} />
 				<Effect />
 				<Content />
 			</Canvas>
-			<Nav />
 			<div className="header-small">WE MAKE YOUR DESIGNS....</div>
-			<div class="header-major">
+			<div className="header-major">
 				<span>Beautiful, Useable & Fun</span>
 			</div>
 		</div>

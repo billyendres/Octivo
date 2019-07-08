@@ -2,7 +2,7 @@ import React from "react";
 import Popup from "reactjs-popup";
 import BurgerIcon from "./BurgerIcon";
 import Menu from "./Menu";
-import "./nav.css";
+import "./nav.scss";
 
 const contentStyle = {
 	background: "rgba(255,255,255,0)",

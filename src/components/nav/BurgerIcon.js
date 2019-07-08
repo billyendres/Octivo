@@ -6,11 +6,11 @@ export default ({ open, ...props }) => (
 		<div className={open ? "burger-menu open" : "burger-menu"} {...props}>
 			<img
 				src="https://octivo.io/wp-content/uploads/2018/05/octivo-logo.svg"
-				className="header-left"
 				style={{
 					position: "fixed",
-					top: "6rem",
-					left: "0.8rem"
+					top: "2.5rem",
+					left: "0.8rem",
+					width: "15rem"
 				}}
 			/>
 
