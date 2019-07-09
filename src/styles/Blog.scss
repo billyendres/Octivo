@@ -2,10 +2,15 @@
 	background: linear-gradient(180deg, #feb4b4, #ff5e5e 100%);
 }
 
+.blog-style {
+	display: flex;
+	justify-content: center;
+}
+
 .blog-banner {
 	width: 80%;
-	margin-left: 10%;
-	margin-top: 5%;
+	// margin-left: 10%;
+	margin-top: 3%;
 	border: 2px solid black;
 	border-radius: 1%;
 	box-shadow: 3px 10px 30px 5px rgba(0, 0, 0, 0.6);

@@ -9,7 +9,9 @@ import blog from "./images/blog.png";
 const Blog = () => {
 	return (
 		<div className="background-style">
-			<img className="blog-banner" src={blog} />
+			<div className="blog-style">
+				<img className="blog-banner" src={blog} />
+			</div>
 			<div className="blog-images">
 				<img src={img1} className="image-container" />
 				<img src={img2} className="image-container" />

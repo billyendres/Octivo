@@ -1,5 +1,10 @@
 /* HOME PAGE STYLES */
 
+@font-face {
+	font-family: "Palm Canyon Drive";
+	src: url(`../styles/fonts//PalmCanyonDrive-Regular.otf`);
+}
+
 div.header-small {
 	font-family: "DIN Condensed", sans-serif;
 	position: absolute;

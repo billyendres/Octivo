@@ -1,3 +1,8 @@
+@font-face {
+	font-family: "DIN Condensed";
+	src: url(`../styles/fonts/DIN\Condensed\Bold.ttf`);
+}
+
 .clients-bg {
 	display: flex;
 	justify-content: center;
@@ -42,7 +47,7 @@
 	margin-left: 1em;
 	margin-right: 1em;
 	color: white;
-	font-family: DIN Condensed;
+	font-family: "DIN Condensed";
 	font-size: 3rem;
 }
 
