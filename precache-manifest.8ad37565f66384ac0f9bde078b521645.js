@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/Octivo/static/media/img3.c88d682c.png"
   },
   {
-    "revision": "fc1f98039d058f81b4ce",
-    "url": "/Octivo/static/css/main.93afa420.chunk.css"
+    "revision": "cab6f0a2ff902211ce07",
+    "url": "/Octivo/static/css/main.4d6b51d2.chunk.css"
   },
   {
     "revision": "e0731a97c269ade58ecc",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/Octivo/static/media/img2.2205b6c3.png"
   },
   {
-    "revision": "fc1f98039d058f81b4ce",
-    "url": "/Octivo/static/js/main.fc1f9803.chunk.js"
+    "revision": "cab6f0a2ff902211ce07",
+    "url": "/Octivo/static/js/main.cab6f0a2.chunk.js"
   },
   {
     "revision": "691b42c60116bc19da3e8336109468e3",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/Octivo/static/media/blog.36e6b693.png"
   },
   {
-    "revision": "2277a89b545ecd038a9b834b74baeefd",
+    "revision": "11dd80c8bba3f53dece1bb1e0f8a722c",
     "url": "/Octivo/index.html"
   }
 ];
