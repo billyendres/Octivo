@@ -10,7 +10,7 @@ const Blog = () => {
 	return (
 		<div className="background-style">
 			<div className="blog-style">
-				{/* <img className="blog-banner" src={blog} /> */}
+				<div className="blogs">- BLOGS -</div>
 			</div>
 			<div className="blog-images">
 				<img src={img1} className="image-container" />

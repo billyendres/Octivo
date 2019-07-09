@@ -72,9 +72,11 @@ const HomePage = () => {
 				<Effect />
 				<Content />
 			</Canvas>
-			<div className="header-small">WE MAKE YOUR DESIGNS....</div>
-			<div className="header-major">
-				<span>Beautiful, Useable & Fun</span>
+			<div className="headers">
+				<div className="header-small">WE MAKE YOUR DESIGNS....</div>
+				<div className="header-major">
+					<span>Beautiful, Useable & Fun</span>
+				</div>
 			</div>
 		</div>
 	);

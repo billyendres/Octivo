@@ -1,4 +1,5 @@
 import React from "react";
+import octivoImg from "./images/octivoImg.png";
 import "../styles/Clients.scss";
 
 const Clients = () => {
@@ -24,11 +25,7 @@ const Clients = () => {
 					src="https://octivo.io/wp-content/uploads/2018/07/grilld-logo.svg"
 					alt="cottonOn"
 				/>
-				<img
-					className="clients-image"
-					src="https://octivo.io/wp-content/uploads/2018/12/maurafay_neon.png"
-					alt="cottonOn"
-				/>
+				<img className="clients-image" src={octivoImg} alt="cottonOn" />
 				<img
 					className="clients-image"
 					src="https://octivo.io/wp-content/uploads/2018/07/telstra-logo.svg"
