@@ -12,7 +12,7 @@ const App = () => {
 			<Nav />
 			{/* <div style={{ width: "100%", background: "black", padding: "56px" }} /> */}
 			<HomePage />
-			{/* <div style={{ width: "100%", background: "black", padding: "20px" }} /> */}
+			<div style={{ width: "100%", background: "black", padding: "5px" }} />
 			<CardItems />
 			{/* <div style={{ width: "100%", background: "black", padding: "140px" }} /> */}
 			<Blog />

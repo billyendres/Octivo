@@ -5,13 +5,18 @@
 }
 
 .clients {
+	box-shadow: 3px 10px 30px 5px rgba(0, 0, 0, 0.6);
 	width: 100%;
-	margin: 2em;
-	background: white;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	background: black;
 	opacity: 0.8;
 	text-align: center;
 	height: 25em;
-	border: 4px solid black;
+	border: 3px solid white;
+	border-radius: 1%;
 }
 
 @media only screen and (max-width: 1050px) {
@@ -36,9 +41,13 @@
 	margin-top: 1em;
 	margin-left: 1em;
 	margin-right: 1em;
-	color: black;
+	color: white;
 	font-family: DIN Condensed;
 	font-size: 3rem;
+}
+
+.clients-header:hover {
+	color: #ff5757;
 }
 
 @media only screen and (max-width: 1050px) {

@@ -14,19 +14,6 @@ const CardItems = () => {
 								<Card>
 									<div className="card-title">{card.title}</div>
 									<div className="card-body">{card.description}</div>
-									<div
-										style={{
-											width: "100px",
-											height: "100px",
-											borderRadius: "50%",
-											background: "black"
-										}}
-									>
-										<img
-											src="https://octivo.io/wp-content/uploads/2018/10/2-apps.png"
-											style={{ height: "110px", height: "110px", paddingTop: "20px" }}
-										/>
-									</div>
 								</Card>
 							</div>
 						))}
@@ -117,19 +104,12 @@ function Hero({ children }) {
 
 function Info() {
 	return (
-		<div className="info" style={{ fontSize: "3rem" }}>
-			GET IN TOUCH!
-			<br />
-			<img
-				style={{
-					width: "40px",
-					height: "40px",
-					marginRight: "10px",
-					marginBottom: "10px"
-				}}
-				src="https://octivo.io/wp-content/uploads/2018/12/phone-icon.svg"
-			/>
-			1300 166 010
+		<div className="info-box">
+			<div className="info">
+				GET IN TOUCH!
+				<br />
+				1300 166 010
+			</div>
 		</div>
 	);
 }
