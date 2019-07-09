@@ -24,19 +24,19 @@ self.__precacheManifest = [
     "url": "/Octivo/static/js/runtime~main.04509d62.js"
   },
   {
-    "revision": "2a65e0ee0b2eb4b2ef60",
-    "url": "/Octivo/static/js/main.2a65e0ee.chunk.js"
+    "revision": "9584067dea45e6677ac1",
+    "url": "/Octivo/static/js/main.9584067d.chunk.js"
   },
   {
     "revision": "e0731a97c269ade58ecc",
     "url": "/Octivo/static/js/1.e0731a97.chunk.js"
   },
   {
-    "revision": "2a65e0ee0b2eb4b2ef60",
-    "url": "/Octivo/static/css/main.f21e9b63.chunk.css"
+    "revision": "9584067dea45e6677ac1",
+    "url": "/Octivo/static/css/main.3c93c401.chunk.css"
   },
   {
-    "revision": "cd1b33f7f8ea549bcf81202e85abdc27",
+    "revision": "1d087a6d1fe949947125277a3dde6187",
     "url": "/Octivo/index.html"
   }
 ];
