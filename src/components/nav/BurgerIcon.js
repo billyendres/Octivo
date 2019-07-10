@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "react-bootstrap/Navbar";
 
 export default ({ open, ...props }) => (
 	<>
 		<div className={open ? "burger-menu open" : "burger-menu"} {...props}>
 			<img
 				src="https://octivo.io/wp-content/uploads/2018/05/octivo-logo.svg"
+				alt="logo"
 				style={{
 					position: "fixed",
 					top: "2.5rem",

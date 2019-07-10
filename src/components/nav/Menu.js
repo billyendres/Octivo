@@ -1,8 +1,9 @@
 import React from "react";
+import "./nav.scss";
 
 export default ({ close }) => (
 	<div className="menu">
-		<ul style={{ fontSize: "2.5rem", fontFamily: "GT Walsheim" }}>
+		<ul className="menu-style">
 			<li onClick={close}>Home</li>
 			<li onClick={close}>Enquire Now</li>
 			<li onClick={close}>Octivo Authoring Tool</li>
