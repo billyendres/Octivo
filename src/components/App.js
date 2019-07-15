@@ -5,6 +5,7 @@ import CardItems from "./Card";
 import Blog from "./Blog";
 import Clients from "./Clients";
 import Footer from "./Footer";
+import Projects from "./Projects";
 
 const App = () => {
 	return (
@@ -14,6 +15,7 @@ const App = () => {
 			<HomePage />
 			<div style={{ width: "100%", background: "black", padding: "5px" }} />
 			<CardItems />
+			<Projects />
 			<Blog />
 			<Clients />
 			<Footer />

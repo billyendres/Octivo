@@ -4,6 +4,7 @@ import { apply, Canvas, useRender, useThree } from "react-three-fiber";
 import { useSprings, a } from "@react-spring/three";
 import * as resources from "./animationResources/index";
 import "../styles/HomePage.scss";
+import Flip from "react-reveal/Flip";
 apply(resources);
 
 const number = 30;
@@ -73,10 +74,12 @@ const HomePage = () => {
 				<Content />
 			</Canvas>
 			<div className="headers">
-				<div className="header-small">WE MAKE YOUR DESIGNS....</div>
-				<div className="header-major">
-					<span>Beautiful, Useable & Fun</span>
-				</div>
+				<Flip>
+					<div className="header-small">WE MAKE YOUR DESIGNS....</div>
+					<div className="header-major">
+						<span>Beautiful, Useable & Fun</span>
+					</div>
+				</Flip>
 			</div>
 		</div>
 	);

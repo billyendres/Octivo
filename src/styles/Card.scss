@@ -3,6 +3,11 @@
 	src: url(`../styles/fonts/DIN\Condensed\Bold.ttf`);
 }
 
+@font-face {
+	font-family: "Palm Canyon Drive";
+	src: url(../styles/fonts//PalmCanyonDrive-Regular.otf);
+}
+
 .info-box {
 	display: flex;
 	justify-content: center;
@@ -77,10 +82,6 @@
 	will-change: transform;
 }
 
-.card div:hover {
-	color: #ff5757;
-}
-
 .card-title {
 	font-family: "DIN Condensed";
 	color: black;
@@ -97,5 +98,75 @@
 	font-size: 1.5em;
 	@media screen and (max-width: 1090px) {
 		font-size: 1em;
+	}
+}
+
+.hustle {
+	text-align: center;
+	font-family: "Palm Canyon Drive";
+	font-size: 8em;
+}
+
+@media only screen and (max-width: 1000px) {
+	.hustle {
+		font-size: 8em;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.hustle {
+		font-size: 6em;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.hustle {
+		font-size: 5em;
+	}
+}
+
+@media only screen and (max-width: 560px) {
+	.hustle {
+		font-size: 4em;
+	}
+}
+
+@media only screen and (max-width: 446px) {
+	.hustle {
+		padding-top: 1.5em;
+	}
+}
+
+.case {
+	text-align: center;
+	font-family: "DIN Condensed";
+	margin-bottom: 2%;
+}
+
+.case {
+	font-size: 3em;
+}
+
+@media only screen and (max-width: 1000px) {
+	.case {
+		font-size: 2.5em;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.case {
+		font-size: 2em;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.case {
+		font-size: 1.5em;
+	}
+}
+
+@media only screen and (max-width: 560px) {
+	.case {
+		padding-right: 0em;
 	}
 }

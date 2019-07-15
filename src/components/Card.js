@@ -1,5 +1,6 @@
 import React, { useState, useRef } from "react";
 import { useSpring, animated } from "react-spring";
+import Flip from "react-reveal/Flip";
 import "../styles/Card.scss";
 
 const CardItems = () => {
@@ -19,6 +20,10 @@ const CardItems = () => {
 						))}
 					</div>
 				</div>
+				<Flip>
+					<div className="hustle">The Hustle</div>
+					<div className="case">CLICK THE IMAGE TO SEE MORE!</div>
+				</Flip>
 			</Hero>
 		</div>
 	);

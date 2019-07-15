@@ -1,0 +1,15 @@
+.projects {
+	cursor: pointer;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background: linear-gradient(180deg, #feb4b4, #feb4b4 100%);
+	font-family: Kanit, sans-serif;
+	font-weight: 800;
+	font-size: 26em;
+	will-change: transform, opacity;
+}
