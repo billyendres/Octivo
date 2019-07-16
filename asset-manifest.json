@@ -1,9 +1,9 @@
 {
-  "main.css": "/Octivo/static/css/main.02c56b18.chunk.css",
-  "main.js": "/Octivo/static/js/main.cbdea316.chunk.js",
-  "main.js.map": "/Octivo/static/js/main.cbdea316.chunk.js.map",
-  "static/js/1.9acae7ac.chunk.js": "/Octivo/static/js/1.9acae7ac.chunk.js",
-  "static/js/1.9acae7ac.chunk.js.map": "/Octivo/static/js/1.9acae7ac.chunk.js.map",
+  "main.css": "/Octivo/static/css/main.7663af28.chunk.css",
+  "main.js": "/Octivo/static/js/main.aceb7a5a.chunk.js",
+  "main.js.map": "/Octivo/static/js/main.aceb7a5a.chunk.js.map",
+  "static/js/1.04b4aadc.chunk.js": "/Octivo/static/js/1.04b4aadc.chunk.js",
+  "static/js/1.04b4aadc.chunk.js.map": "/Octivo/static/js/1.04b4aadc.chunk.js.map",
   "runtime~main.js": "/Octivo/static/js/runtime~main.04509d62.js",
   "runtime~main.js.map": "/Octivo/static/js/runtime~main.04509d62.js.map",
   "static/media/nav.scss": "/Octivo/static/media/GT-Walsheim-Regular.628f7108.ttf",
@@ -16,8 +16,8 @@
   "static/media/Mfl.png": "/Octivo/static/media/Mfl.573cf782.png",
   "static/media/Card.scss": "/Octivo/static/media/PalmCanyonDrive-Regular.bbbb996d.otf",
   "static/media/img1.png": "/Octivo/static/media/img1.51c49891.png",
-  "static/css/main.02c56b18.chunk.css.map": "/Octivo/static/css/main.02c56b18.chunk.css.map",
+  "static/css/main.7663af28.chunk.css.map": "/Octivo/static/css/main.7663af28.chunk.css.map",
   "index.html": "/Octivo/index.html",
-  "precache-manifest.9d1bd9639793728e8a580043c21c049d.js": "/Octivo/precache-manifest.9d1bd9639793728e8a580043c21c049d.js",
+  "precache-manifest.8d3011dfe604ee56f2d39b4305a4a0b6.js": "/Octivo/precache-manifest.8d3011dfe604ee56f2d39b4305a4a0b6.js",
   "service-worker.js": "/Octivo/service-worker.js"
 }
