@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 import { useSpring, animated } from "react-spring";
 import Flip from "react-reveal/Flip";
 import "../styles/Card.scss";
+import Fade from "react-reveal/Fade";
 
 const CardItems = () => {
 	return (
@@ -22,7 +23,6 @@ const CardItems = () => {
 				</div>
 				<Flip>
 					<div className="hustle">The Hustle</div>
-					<div className="case">CLICK THE IMAGE TO SEE MORE!</div>
 				</Flip>
 			</Hero>
 		</div>
@@ -109,13 +109,15 @@ function Hero({ children }) {
 
 function Info() {
 	return (
-		<div className="info-box">
-			<div className="info">
-				GET IN TOUCH!
-				<br />
-				1300 166 010
+		<Fade top>
+			<div className="info-box">
+				<div className="info">
+					GET IN TOUCH!
+					<br />
+					1300 166 010
+				</div>
 			</div>
-		</div>
+		</Fade>
 	);
 }
 
